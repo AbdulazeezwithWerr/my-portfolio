@@ -1,0 +1,108 @@
+.jsprojects {
+  height: 100vh;
+  padding: 15vh 0px;
+  overflow-y: scroll;
+}
+.jsprojects iframe {
+  margin-bottom: 7px;
+}
+.jsprojects a {
+  margin-bottom: 35px;
+}
+.jsprojects a img {
+  width: 20px;
+  margin-top: -5px;
+  transition: 0.2s ease-in;
+}
+.jsprojects .btn:hover img {
+  filter: brightness(0) invert(1);
+}
+.div-for-btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+.image-for {
+  width: 33vw;
+  height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 1.7vw;
+  margin-bottom: 2vh;
+}
+.project-name {
+  text-align: center;
+  color: black;
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  transform: scaleX(40deg);
+  transition: 1s;
+}
+@media (max-width: 400px) {
+  .jsprojects h2 {
+    margin-left: 27vw;
+    font-size: 2rem !important;
+    margin-top: -11vh;
+  }
+  .project-name {
+    font-size: 1.4rem !important;
+    text-align: center;
+  }
+  .row {
+    margin-left: 4vh;
+  }
+  .jsprojects .row {
+    margin-left: 7.5vw;
+  }
+  .jsprojects .image-for {
+    width: 79vw;
+    height: 35vh;
+    margin-left: -3.7vw;
+  }
+  .jsprojects .div-for-btn .btn {
+    font-size: 1rem !important;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    height: 12vh;
+    width: 40vw;
+    padding-top: 0vh !important;
+  }
+  .jsprojects .div-for-btn {
+    margin-left: -1.8vw;
+  }
+}
+@media (max-width: 320px) {
+  .jsprojects h2 {
+    margin-left: 20vw;
+    font-size: 1.8rem !important;
+    margin-top: -12vh;
+  }
+  .project-name {
+    font-size: 1.3rem !important;
+    text-align: center;
+    margin-left: 2vw;
+  }
+  .jsprojects .image-for {
+    width: 80vw;
+    height: 31vh;
+  }
+  .jsprojects .row {
+    margin-left: 3.1vw;
+  }
+  .jsprojects .div-for-btn .btn {
+    font-size: 0.9rem !important;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+    height: 11vh;
+    width: 40vw;
+    /* padding-right: 25vw!important; */
+    padding-top: 0vh !important;
+  }
+  .jsprojects .div-for-btn {
+    margin-left: 4.4vw;
+  }
+  .jsprojects .div-for-btn a {
+  }
+}
